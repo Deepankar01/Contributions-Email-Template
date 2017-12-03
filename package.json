@@ -1,0 +1,15 @@
+{
+  "name": "contributions-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "./node_modules/.bin/mjml --watch index.mjml -o index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^3.3.5"
+  }
+}
